@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from '@/app/components/Banner'
 import SubscriptionSection from "@/app/components/Subscription";
 import Filter from '@/app/components/Filter';
-import ProductList from '@/app/components/ProductList';
 import { PartyboxSpeakers } from '@/app/data/PartyboxSpeakers';
 
 const page = () => {
@@ -12,7 +11,6 @@ const page = () => {
             <div className="content">
                 <div className="sq-app sq-p --grid-view">
                     <Filter/>
-                    <ProductList productURL={PartyboxSpeakers}/>
                 </div>
             </div>
             <SubscriptionSection/>

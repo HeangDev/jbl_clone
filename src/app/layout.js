@@ -11,6 +11,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
     return (
         <html lang="th">
             <body className={inter.className}>
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
                     {children}
                 </main>
                 <Footer/>
+                <div className="overlay"></div>
             </body>
         </html>
     );

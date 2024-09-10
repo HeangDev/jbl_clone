@@ -23,8 +23,8 @@ export default function Header() {
                             </Link>
                         </h1>
                     </div>
-                    <div className={`header__menu ${menuToggler ? "is-open" : ""}`} onClick={() => handleMenuToggler()}>
-                        <div className="main-menu__toggle">
+                    <div className={`header__menu ${menuToggler ? "is-open" : ""}`}>
+                        <div className="main-menu__toggle" onClick={() => handleMenuToggler()}>
                             <span className="main-menu__toggle-icon"></span>
                         </div>
                         <div className="main-menu__content">

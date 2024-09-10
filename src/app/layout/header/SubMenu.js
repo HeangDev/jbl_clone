@@ -19,6 +19,18 @@ const SubMenu = ({ item }) => {
         return () => window.removeEventListener("resize", checkScreenSize);
     }, []);
 
+    // Handle adding/removing classes to body when hovering
+    useEffect(() => {
+        const overlayElement = document.querySelector('.overlay');
+        if (overlayElement) {
+            if (isHovered && item.subNav) {
+                overlayElement.classList.add('is-visible', 'overlay--nav');
+            } else {
+                overlayElement.classList.remove('is-visible', 'overlay--nav');
+            }
+        }
+    }, [isHovered]);
+
     if (item.subNav) {
         return (
             <li className={`${isHovered && isMobile ? "hover_nav" : ""} ${subnav ? "is-open" : ""}`}  onMouseEnter={() => {setHovered(true)}} onMouseLeave={() => {setHovered(false)}}>
@@ -46,7 +58,7 @@ const SubMenu = ({ item }) => {
                     </button>
                     <ul className={`main-nav__childs ${subnav ? "slide-in" : "slide-out"}`}>
                         <li>
-                            <button type="button" class="main-nav__item main-nav__item--back relative js-back">
+                            <button type="button" class="main-nav__item main-nav__item--back relative js-back" onClick={hideSubNav}>
                                 <div class="main-nav__item-content text-start">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" role="presentation" class="icon"><path d="m6.797 11.625 8.03-8.03 1.06 1.06-6.97 6.97 6.97 6.97-1.06 1.06z"></path></svg>
                                 </div>

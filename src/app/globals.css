@@ -101,17 +101,6 @@ body {:lang(th) {font-family: "DBHelvethaicaX";}}
 .qa__link{margin-top:32px;font-size:20px;}
 .qa__link a{transition:opacity .3s;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2rem}
 
-.subscription-section{height:500px;padding-top:125px;padding-bottom:10px;background-color:#d3d3d3;background:url(https://ucarecdn.com/1159bb07-1db5-48b2-8004-106f693efe95/-/format/auto/-/preview/1024x1024/-/quality/lighter/Sign%20up%20BannerSign%20up%20Banner_Mobile.jpg);;background-size:cover;background-position:center center}
-.subscription-content{position:relative;padding:60px 20px 30px;z-index:1;display:flex;flex-direction:column;max-width:100%;align-items:center;justify-content:center}
-.subscription-title{width:100%;margin-bottom:25px;}
-.subscription-title h4{font-size:40px;line-height:1em;letter-spacing:0;color:#fff;text-transform:none;font-weight:400;text-align:center;}
-.subscription-form{display:flex;justify-content:center;align-items:center}
-.subscription-input{padding:10px;border:0;border-radius:25px 0 0 25px;width:700px;font-size:16px}
-.subscription-button{padding:10px 20px;border:0;border-radius:0 25px 25px 0;background-color:#ff4500;color:#fff;font-size:16px;cursor:pointer}
-.subscription-privacy{width:100%;margin-top:50px;}
-.subscription-privacy h5{font-size:22px;line-height:1em;letter-spacing:0;color:#fff;text-transform:none;font-weight:100;text-align:center;}
-.subscription-privacy h5 a{text-decoration:underline;}
-
 .sq-app.sq-p.--grid-view{padding:0;max-width:180rem}
 .sq-results{display:flex;flex-wrap:wrap;position:relative;width:100%}
 .sq-results-item{width:33.33%}
@@ -179,24 +168,7 @@ span.sq-sort-label{font-size:16px;color:#000}
 .sq-filter-item>.sq-filter-value,.sq-multi-select>.sq-filter-value-count{font-family:Roc Grotesk Regular!important}
 .sq-filter-item label,.sq-filter-value-count,.sq-sort-text{font-size:16px!important}
 
-/* slider */
-.sq-price-slider{margin-bottom:9px;flex-direction:column;display:flex;align-items:center;width:100%}
-.sq-wrapper{width:98%}
-.sq-price-slider.th:after{content:"ค้นหา"}
-.sq-price-slider:after{content:"Submit";width:100%;height:40px;border:1px solid #f37654;display:flex;justify-content:center;align-items:center}
-.sq-price-input-group.sq-slider-input-group{align-items:self-start;height:75px}
-.sq-price-input-group{position:relative;display:flex;justify-content:space-evenly}
-.sq-price-input-group.sq-slider-input-group.th:before{content:"น้อยที่สุด"}
-.sq-price-input-group.sq-slider-input-group.th:after{content:"มากที่สุด"}
-.sq-price-input-group.sq-slider-input-group:after{content:"To";display:flex;position:absolute;left:51%}
-.sq-price-input-group.sq-slider-input-group:before{content:"From";position:absolute}
-.sq-wrapper .sq-field{display:flex;align-items:center;top:30px;position:relative;border:solid 1px #d3d3d3;padding:0 15px}
-.sq-wrapper .sq-field{width:49%}
-.sq-price-slider input.sq-input-min,input.sq-input-max{background-clip:padding-box;font-family:inherit;font-size:20px;line-height:1.5;height:40px;min-height:40px;padding:0 9px;border:0;margin:0;color:gray;border-radius:30px}
-.sq-wrapper .sq-field input{width:100%}
-.sq-wrapper .sq-field input::-webkit-inner-spin-button,.sq-wrapper .sq-field input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
-.sq-price-slider input.sq-input-min,input.sq-input-max{width:50px}
-.sq-price-slider .sq-slider-prefix{font-size:20px;}
+
 
 .footer{padding:calc(2*.4rem)0 calc(10*.4rem);color:#fff;background-color:#000}
 .footer .footer-container{width:100%;margin:0 auto;padding:0 32px}
@@ -258,8 +230,6 @@ span.sq-sort-label{font-size:16px;color:#000}
   .main-menu__toggle{display:none}
 
   .header .header__menu ul li .main-nav__childs{position:absolute;z-index:10;top:100%;display:none;min-width:170px;max-height:max(100vh - 150px) - 70px, 60vh;padding:2rem 1.2rem;overflow:auto;transition:transform .3s,opacity .2s,visibility .3s;transition-timing-function:cubic-bezier(.19,1,.22,1);border-top:1px solid rgba(255,255,255,.2);background-color:#000;box-shadow:0 5px 5px 0 rgba(0,0,0,.1);color:#222;}
-
-  .subscription-section{height:500px;padding-top:80px;padding-bottom:10px;background-color:#d3d3d3;background-image:url(https://ucarecdn.com/e456b23d-5144-49e3-a4be-691b836bd3b6/-/format/auto/-/preview/3000x3000/-/quality/lighter/Sign%20up%20BannerSign%20up%20Banner_Desktop.jpg);background-size:cover;background-position:center center}
 
   .footer-block__btns svg{width:22px;height:22px}
   .footer{padding:72px 0 64px}
@@ -494,7 +464,7 @@ span.sq-sort-label{font-size:16px;color:#000}
 .row_main_slide .main_slide{padding:0;}
 .row_main_slide .main_slide .slide_item{padding-top:0;padding-bottom:0;height:auto;max-width:100%;background-size:cover;}
 .row_main_slide .main_slide .owl-dots{position:absolute;bottom:-2px;left:0;right:0;}
-.row_main_slide .main-slider .slide_link{display:block;width:100%;height:100%;text-decoration:none;position:absolute;left:0;top:0;z-index:12}
+.row_main_slide .main-slider .slide_link{display:block;width:100%;height:100%;text-decoration:none;}
 
 .sq-collaction-item{padding-bottom:10px;width:100%;}
 .sq-collaction-item:hover{box-shadow:0 0 10px #333;cursor:pointer;}
@@ -629,3 +599,133 @@ span.sq-sort-label{font-size:16px;color:#000}
 
 
 
+
+
+
+
+
+/* (start)09112024 */
+.subscription-section{height:500px;padding-top:125px;padding-bottom:10px;background-color:#d3d3d3;background:url(https://ucarecdn.com/1159bb07-1db5-48b2-8004-106f693efe95/-/format/auto/-/preview/1024x1024/-/quality/lighter/Sign%20up%20BannerSign%20up%20Banner_Mobile.jpg);;background-size:cover;background-position:center center;}
+.subscription-content{position:relative;padding:60px 20px 0;z-index:1;display:flex;flex-direction:column;max-width:100%;align-items:center;justify-content:center}
+.subscription-section .subscription-form{display:flex;flex-direction:row;width:100vw;padding-bottom:10px;visibility:visible;}
+.subscription-section .subscription-form .subscription-input{display:flex;flex-direction:column;justify-content:center;min-height:auto;}
+.subscription-section .subscription-form .subscription_button_wrap{display:block;width:100%;}
+.subscription-title{width:100%;margin-bottom:25px;}
+.subscription-title h4{font-size:40px;line-height:1em;letter-spacing:0;color:#fff;text-transform:none;font-weight:400;text-align:center;}
+.subscription-form{display:flex;justify-content:center;align-items:center}
+.subscription-input{padding:10px;border:0;border-radius:25px 0 0 25px;width:700px;font-size:16px}
+.subscription-button{padding:10px 20px;border:0;border-radius:0 25px 25px 0;background-color:#ff4500;color:#fff;font-size:16px;cursor:pointer}
+.subscription-privacy{width:100%;margin-top:50px;}
+.subscription-privacy h5{font-size:22px;line-height:1em;letter-spacing:0;color:#fff;text-transform:none;font-weight:100;text-align:center;}
+.subscription-privacy h5 a{text-decoration:underline;}
+
+@media (min-width: 1200px) {
+  .subscription-section .subscription-form{padding-top:0;padding-bottom:0;}
+  .subscription-section .subscription-form .subscription_input_wrap{display:block;width:58.33333%;min-height:auto;text-align:right;}
+  .subscription-section .subscription-form input{width:50%;min-height:40px;padding:0 9px;font-size:14px;color:#000;font-weight:400;border-radius:20px 0 0 20px/20px 0 0 20px !important;height:40px;line-height:40px;border:1px solid #dfdfdf;background-color:#fff;}
+  .subscription-section .subscription-form .subscription_button_wrap{width:41.66667%;text-align:left;}
+  .subscription-section .subscription-form button{padding-bottom:0;font-size:14px;font-weight:400;background-color:#ff4500;border-radius:0 20px 20px 0/0 20px 20px 0;border-style:none;border-width:3px;border-color:#fff;width:150px;color:#fff;padding-top:0;height:40px;line-height:40px;font-family:'"DBHelvethaicaX"'}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .subscription-section .subscription-form{max-width:none;padding-top:0;padding-bottom:0;}
+  .subscription-section .subscription-form .subscription_input_wrap{display:block;width:50%;min-height:auto;text-align:right;}
+  .subscription-section .subscription-form input{width:40%;min-height:40px;padding:0 9px;font-size:14px;color:#000;font-weight:400;border-radius:20px 0 0 20px/20px 0 0 20px !important;height:40px;line-height:40px;border:1px solid #dfdfdf;background-color:#fff;}
+  .subscription-section .subscription-form .subscription_button_wrap{width:50%;text-align:left;}
+  .subscription-section .subscription-form button{padding-bottom:0;font-size:14px;font-weight:400;background-color:#ff4500;border-radius:0 20px 20px 0/0 20px 20px 0;border-style:none;border-width:3px;border-color:#fff;width:200px;color:#fff;padding-top:0;height:40px;line-height:40px;font-family:'"DBHelvethaicaX"'}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .subscription-section .subscription-form{max-width:none;padding-top:0;padding-bottom:0;}
+  .subscription-section .subscription-form .subscription_input_wrap{display:block;width:50%;min-height:auto;text-align:right;}
+  .subscription-section .subscription-form input{width:50%;min-height:40px;padding:0 9px;font-size:14px;color:#000;font-weight:400;border-radius:20px 0 0 20px/20px 0 0 20px !important;height:40px;line-height:40px;border:1px solid #dfdfdf;background-color:#fff;}
+  .subscription-section .subscription-form .subscription_button_wrap{width:50%;text-align:left;}
+  .subscription-section .subscription-form button{padding-bottom:0;font-size:14px;font-weight:400;background-color:#ff4500;border-radius:0 20px 20px 0/0 20px 20px 0;border-style:none;border-width:3px;border-color:#fff;width:150px;color:#fff;padding-top:0;height:40px;line-height:40px;font-family:'"DBHelvethaicaX"'}
+}
+
+@media (max-width: 767px) {
+  .subscription-section .subscription-form{max-width:none;padding-top:0;padding-bottom:0;}
+  .subscription-section .subscription-form .subscription_input_wrap{display:block;width:50%;min-height:auto;text-align:right;}
+  .subscription-section .subscription-form input{width:80%;min-height:40px;padding:0 9px;font-size:14px;color:#000;font-weight:400;border-radius:20px 0 0 20px/20px 0 0 20px !important;height:40px;line-height:40px;border:1px solid #dfdfdf;background-color:#fff;}
+  .subscription-section .subscription-form .subscription_button_wrap{width:50%;text-align:left;}
+  .subscription-section .subscription-form button{padding-bottom:0;font-size:14px;font-weight:400;background-color:#ff4500;border-radius:0 20px 20px 0/0 20px 20px 0;border-style:none;border-width:3px;border-color:#fff;width:150px;color:#fff;padding-top:0;height:40px;line-height:40px;font-family:'"DBHelvethaicaX"'}
+}
+
+@media (min-width: 769px) {
+  .subscription-section{height:500px;padding-top:80px;padding-bottom:10px;background-color:#d3d3d3;background-image:url(https://ucarecdn.com/e456b23d-5144-49e3-a4be-691b836bd3b6/-/format/auto/-/preview/3000x3000/-/quality/lighter/Sign%20up%20BannerSign%20up%20Banner_Desktop.jpg);background-size:cover;background-position:center center;}
+}
+
+@media (min-width: 1200px) {
+  .main_slide.pc{display:block;}
+  .main_slide.mo{display:none;}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .main_slide.pc{display:block;}
+  .main_slide.mo{display:none;}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .main_slide.pc{display:none;}
+  .main_slide.mo{display:block;}
+}
+
+@media (max-width: 767px) {
+  .main_slide.pc{display:none;}
+  .main_slide.mo{display:block;}
+}
+
+/* slider */
+.sq-price-slider{margin-bottom:9px;flex-direction:column;display:flex;align-items:center;width:100%}
+.sq-wrapper{width:98%}
+.sq-price-slider.th:after{content:"ค้นหา"}
+.sq-price-slider:after{content:"Submit";width:100%;height:40px;border:1px solid #f37654;display:flex;justify-content:center;align-items:center}
+.sq-price-input-group.sq-slider-input-group{display:flex;justify-content:space-between;align-items:self-start;height:75px}
+.sq-price-input-group{position:relative;display:flex;justify-content:space-evenly}
+.sq-price-input-group.sq-slider-input-group.th:before{content:"น้อยที่สุด"}
+.sq-price-input-group.sq-slider-input-group.th:after{content:"มากที่สุด"}
+.sq-price-input-group.sq-slider-input-group:after{content:"To";display:flex;position:absolute;left:51%;font-size:20px;}
+.sq-price-input-group.sq-slider-input-group:before{content:"From";position:absolute;font-size:20px;}
+.sq-wrapper .sq-field{display:flex;align-items:center;top:30px;position:relative;border:solid 1px #d3d3d3;padding:0 15px}
+.sq-wrapper .sq-field{width:49%}
+.sq-price-slider input.sq-input-min,input.sq-input-max{background-clip:padding-box;font-family:inherit;font-size:20px;line-height:1.5;height:40px;min-height:40px;padding:0 9px;border:0;margin:0;color:gray;border-radius:30px}
+.sq-wrapper .sq-field input{width:100%}
+.sq-wrapper .sq-field input:focus{outline:none;}
+.sq-wrapper .sq-field input::-webkit-inner-spin-button,.sq-wrapper .sq-field input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.sq-price-slider input.sq-input-min,input.sq-input-max{width:50px}
+.sq-price-slider .sq-slider-prefix{font-size:20px;}
+
+.sq-clear-button-desktop,.sq-filter-header button.sq-clear-button{font-family:inherit;font-size:12px;line-height:140%;text-transform:capitalize;border:0;background-color:transparent;cursor:pointer;display:block;text-align:unse;color:#000;text-decoration:underline;font-weight:500}
+span.sq-applied-filter-item{position:relative;text-transform:capitalize;color:#3e4152;cursor:default;font-size:16px;padding:4px 8px;-webkit-transition:all .2s ease-out;transition:all .2s ease-out;border:1px solid #ccc;border-radius:2px;align-items:center;background-color:#f4f4f5;justify-content:space-between;margin-right:10px;margin-bottom:10px}
+.sq-applied-filter-item{cursor:pointer;display:flex;flex-wrap:wrap}
+.sq-desktop-filter-header-title{display:none}
+
+@media only screen and (max-width: 767px) {
+  .sparq-container{flex:auto;margin-left:0;width:100%;}
+  .sq-app .sq-filter-main{background-color:#fff;max-width:100%;width:85%!important;overflow-y:auto;padding:2rem 2rem 60px;top:0;z-index:9999;}
+  .sq-filter-main.opening{display:block;max-width:85%;}
+  .sq-filter-header-title{color:#23263b;font-size:16px}
+  .sq-filter-bottom,.sq-filter-header-title{font-weight:700;line-height:120%;text-transform:uppercase}
+  .sq-app .sq-filter-main, .sq-filter-bottom{position:fixed;bottom:0;right:0;width:85%;}
+  .sq-filter-header{align-items:center;border-bottom:1px solid #ddd;display:flex;flex-wrap:wrap;justify-content:space-between;margin-bottom:15px;padding-bottom:15px}
+  .sq-filter-header-clear{align-items:center;color:rgba(var(--color-link),var(--alpha-link))!important;font-size:14px}
+  .sparq-mobile-filterby .filterby-number,.sq-filter-header-clear{display:flex;font-family:inherit;line-height:140%}
+  .sq-filter-header span.sq-cross{height:22px;margin-left:10px;position:relative;width:20px}
+
+  .sq-filter-bottom{background-color:#000;color:#fff;font-size:14px;padding:15px 10px;text-align:center;z-index:999999}
+  .sq-app .sq-filter-main,.sq-filter-bottom{bottom:0;position:fixed;right:0;width:85%}
+  .sq-filter-bottom,.sq-filter-header-title{font-weight:700;line-height:120%;text-transform:uppercase}
+}
+
+input,select,textarea{background-clip:padding-box;font-family:inherit;font-size:20px;line-height:1.5;border-radius:0!important;color:#5f6a7d!important;border:1px solid #dfdfdf;height:40px;min-height:40px;padding:0 9px!important}
+.sq-wrapper .sq-field{display:flex;align-items:center;top:30px;position:relative;border:solid 1px #d3d3d3;padding:0 15px}
+.sq-wrapper .sq-field{width:49%}
+.sq-price-slider input.sq-input-min,input.sq-input-max{border:0;margin:0;color:gray;border-radius:30px}
+.sq-wrapper .sq-field input{width:100%}
+.sq-range-input,.sq-slider{display:none}
+.sq-slider{left:2px}
+.sq-slider{height:5px;position:relative;background:#ddd;border-radius:5px}
+.sq-slider .sq-progress{background-color:#000!important}
+.sq-slider .sq-progress{height:100%;position:absolute;border-radius:5px}
+.sq-range-input input{position:absolute;width:100%;height:5px;top:-7px;background:0 0;pointer-events:none;-webkit-appearance:none;-moz-appearance:none}
+/* (end)09112024 */

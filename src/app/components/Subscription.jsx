@@ -12,13 +12,12 @@ const SubscriptionSection = () => {
                     </h4>
                 </div>
                 <form className="subscription-form">
-                    <input
-                        type="email"
-                        className="subscription-input"
-                        placeholder="อีเมล์"
-                        required
-                    />
-                    <button type="submit" className="subscription-button">สมัครรับข่าวสาร</button>
+                    <div className="subscription_input_wrap">
+                        <input type="email" placeholder="อีเมล์" required/>
+                    </div>
+                    <div className="subscription_button_wrap">
+                        <button type="submit" className="subscription-button">สมัครรับข่าวสาร</button>
+                    </div>
                 </form>
                 <div className="subscription-privacy"><h5>View our <Link href="/pages/privacy-policy-statement">Privacy Policy</Link></h5></div>
             </div>

@@ -57,8 +57,8 @@ export default function BestSellingProducts({ products }) {
                 </div>
                 <div className="main_slide">
                     <OwlCarousel className="owl-theme" {...options}>
-                        {products.map(product => (
-                            <div className="item">
+                        {products.map((product,index) => (
+                            <div className="item" key={index}>
                                 <div className="item__content">
                                     <div className="sq-results-item" key={product.id} product-id={product.id}>
                                         <div className="sparq-card">

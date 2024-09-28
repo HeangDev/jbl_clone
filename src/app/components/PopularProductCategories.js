@@ -57,8 +57,8 @@ export default function PopularProductCategories({ collactions }) {
                 </div>
                 <div className="main_slide pc">
                     <OwlCarousel className="owl-theme" {...options}>
-                        {collactions.map(collaction => (
-                            <div className="item">
+                        {collactions.map((collaction,index) => (
+                            <div className="item" key={index}>
                                 <div className="item__content">
                                     <div className="sq-collaction-item" key={collaction.id} collaction-id={collaction.id}>
                                         <div className="sparq-collaction">

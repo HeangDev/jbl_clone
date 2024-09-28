@@ -1,5 +1,3 @@
-"use client"
-
 import React from "react";
 import SubscriptionSection from '@/app/components/Subscription';
 import Banner from '@/app/components/Banner';

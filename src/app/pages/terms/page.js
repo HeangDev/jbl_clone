@@ -1,7 +1,7 @@
 
 const Terms = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <div>
                 <h1>Terms of Sale</h1>
             </div>

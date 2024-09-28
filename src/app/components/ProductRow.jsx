@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react'
 import ProductCard from './ProductCard'
 import Breadcrumb from './Breadcrumb';

@@ -3,8 +3,11 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import { HeaderData } from './HeaderData'
 import SubMenu from './SubMenu'
+import {useSession } from 'next-auth/react'; // Import signIn from next-auth/react
 
 export default function Header() {
+    const { data: session, status } = useSession(); // Use useSession to get session
+
     const [menuToggler, setMenuToggler] = useState(false);
 
     const handleMenuToggler = () => {
@@ -42,7 +45,7 @@ export default function Header() {
                                 <path d="M14.398 14.483 19 19.514l-1.186 1.014-4.59-5.017a8.317 8.317 0 0 1-4.888 1.578C3.732 17.089 0 13.369 0 8.779S3.732.472 8.336.472c4.603 0 8.335 3.72 8.335 8.307a8.265 8.265 0 0 1-2.273 5.704ZM8.336 15.53c3.74 0 6.772-3.022 6.772-6.75 0-3.729-3.031-6.75-6.772-6.75S1.563 5.051 1.563 8.78c0 3.728 3.032 6.75 6.773 6.75Z"></path>
                             </svg>
                         </Link>
-                        <Link href="/account/login" className="header__icon">
+                        <Link href={session ?"/account/profile":"/account/login"} className="header__icon">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false" role="presentation" className="icon">
                                 <path d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.429a3.571 3.571 0 1 0 0 7.142 3.571 3.571 0 0 0 0-7.142zm0 10c2.558 0 5.114.471 7.664 1.411A3.571 3.571 0 0 1 22 18.19v3.096c0 .394-.32.714-.714.714H2.714A.714.714 0 0 1 2 21.286V18.19c0-1.495.933-2.833 2.336-3.35 2.55-.94 5.106-1.411 7.664-1.411zm0 1.428c-2.387 0-4.775.44-7.17 1.324a2.143 2.143 0 0 0-1.401 2.01v2.38H20.57v-2.38c0-.898-.56-1.7-1.401-2.01-2.395-.885-4.783-1.324-7.17-1.324z"></path>
                             </svg>
